@@ -1,4 +1,35 @@
+/* colors and fonts:
+#2196F3 - blue text
+#000 - total dark
+#fff - total white
+#212121 - light dark
+#757575 - gray text
+rgba(255, 255, 255, 0.6) - footer address text
+
+*/
+
 body {
    text-decoration: none;
-   background-color: rgb(132, 237, 113);
+   background-color: #fff;
+   font-family: 'Roboto', Verdana;
+   font-style: normal;
+   font-weight: 400;
+}
+
+.logo {
+   position: absolute;
+   width: 145px;
+   height: 31px;
+   left: 215px;
+   top: 24px;
+   color: #2196F3;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+   letter-spacing: 0.03em;
+   text-decoration: none;
+}
+
+.logo-nodecor {
+   color: #000
 }
