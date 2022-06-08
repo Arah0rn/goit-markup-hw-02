@@ -11,18 +11,17 @@ rgba(255, 255, 255, 0.6) - footer address text
 body {
    text-decoration: none;
    background-color: #fff;
-   font-family: 'Roboto', Verdana;
+   font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
 }
 
-.logo {
-   position: absolute;
+nav>a[href="/"] {
+   /* position: absolute;
    width: 145px;
    height: 31px;
    left: 215px;
-   top: 24px;
-   color: #2196F3;
+   top: 24px; */
    font-weight: 700;
    font-size: 26px;
    line-height: 31px;
@@ -30,6 +29,10 @@ body {
    text-decoration: none;
 }
 
-.logo-nodecor {
-   color: #000
+.logo-blue {
+   color: #2196F3;
+}
+
+.logo-black {
+   color: #000;
 }
