@@ -1,16 +1,15 @@
-/* colors and fonts:
-#2196F3 - blue text
-#000 - total dark
-#fff - total white
-#212121 - light dark
-#757575 - gray text
-rgba(255, 255, 255, 0.6) - footer address text
-
-*/
+:root {
+   --title-text-color: #212121;
+   --main-text-color: #757575;
+   --total-black-color: #000000;
+   --total-white-color: #FFFFFF;
+   --accent-text-color: #2196F3;
+   --address-text-color: rgba(255, 255, 255, 0.6);
+}
 
 body {
    text-decoration: none;
-   background-color: #fff;
+   background-color: var(--total-white-color);
    font-family: 'Roboto', Verdana;
    font-style: normal;
    font-weight: 400;
@@ -22,7 +21,7 @@ body {
    height: 31px;
    left: 215px;
    top: 24px;
-   color: #2196F3;
+   color: var(--accent-text-color);
    font-weight: 700;
    font-size: 26px;
    line-height: 31px;
