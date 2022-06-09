@@ -7,21 +7,21 @@
    --address-text-color: rgba(255, 255, 255, 0.6);
 }
 
-body {
-   text-decoration: none;
+* {
    background-color: var(--total-white-color);
-   font-family: 'Roboto', Verdana;
+   color: var(--main-text-color);
+   font-family: 'Roboto', sans-serif;
    font-style: normal;
    font-weight: 400;
+   text-decoration: none;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
 
-.logo {
-   position: absolute;
-   width: 145px;
-   height: 31px;
-   left: 215px;
-   top: 24px;
-   color: var(--accent-text-color);
+.nav-link>a[href="/"] {
+   font-family: 'Raleway';
+   font-style: normal;
    font-weight: 700;
    font-size: 26px;
    line-height: 31px;
@@ -29,6 +29,23 @@ body {
    text-decoration: none;
 }
 
-.logo-nodecor {
-   color: #000
+.logo-blue {
+   color: var(--accent-text-color);
+}
+
+.logo-black {
+   color: var(--total-black-color)
+}
+
+.active-navlink {
+   color: var(--accent-text-color);
+
+}
+
+.nav-link a {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+   color: var(--title-text-color);
 }
